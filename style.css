@@ -5,6 +5,7 @@
     align-items: flex-end;
     height: 65vh;
     color: antiquewhite;
+    flex-wrap:wrap;
 }
 .weather{
     position: relative;
