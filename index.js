@@ -8,7 +8,7 @@ let timeDate = document.querySelector('.time_location .time')
 let cond = document.querySelector('.condition') 
 let searchedLoc=document.querySelector('.searchedLocation')
 let emojiImg = document.querySelector('.condition img')
-console.log(emojiImg)
+//console.log(emojiImg)
 
 let submit=document.querySelector('#searchForm')
 // console.log(submit)
