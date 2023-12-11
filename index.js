@@ -26,7 +26,7 @@ async function fetchData(target){
         let url =`https://api.weatherapi.com/v1/current.json?key=a65894b5f2df468594855833231012&q=${target}&aqi=no`
         let response=await fetch(url)
         let jsonData = await response.json()
-        console.log(jsonData)
+        //console.log(jsonData)
         let temperature=jsonData.current.temp_c
         temp.innerHTML=temperature+"°C";
         // console.log(temperature)
@@ -38,7 +38,7 @@ async function fetchData(target){
         // console.log(condition)
         let emoji=jsonData.current.condition.icon
         emojiImg.src=emoji
-        console.log(emojiImg.src)
+        //console.log(emojiImg.src)
 
         let timeAndDate=jsonData.current.last_updated
         timeDate.innerHTML=timeAndDate
